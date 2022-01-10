@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3740682789C48F003EA217 /* Union_MatchMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3740672789C48F003EA217 /* Union_MatchMakerApp.swift */; };
+		1D37406A2789C48F003EA217 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3740692789C48F003EA217 /* ContentView.swift */; };
+		1D37406C2789C490003EA217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D37406B2789C490003EA217 /* Assets.xcassets */; };
+		1D37406F2789C490003EA217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D37406E2789C490003EA217 /* Preview Assets.xcassets */; };
+		1D3740772789CD75003EA217 /* UnionGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3740762789CD75003EA217 /* UnionGame.swift */; };
+		1D3740792789CE28003EA217 /* UnionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3740782789CE28003EA217 /* UnionCard.swift */; };
+		1D37407B2789D401003EA217 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37407A2789D401003EA217 /* GameBoardView.swift */; };
+		1D37407D2789F92E003EA217 /* GameBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37407C2789F92E003EA217 /* GameBoardViewModel.swift */; };
+		1D37407F278A2B11003EA217 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37407E278A2B11003EA217 /* CardView.swift */; };
+		1D374081278A2DD6003EA217 /* GameTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D374080278A2DD6003EA217 /* GameTimerView.swift */; };
+		1D374083278A46E9003EA217 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D374082278A46E9003EA217 /* HelpView.swift */; };
+		1D374085278B0FF5003EA217 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D374084278B0FF5003EA217 /* SettingsView.swift */; };
+		1D374087278B1437003EA217 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D374086278B1437003EA217 /* AboutView.swift */; };
+		1D37408A278B218A003EA217 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D374089278B218A003EA217 /* GameSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3740642789C48E003EA217 /* Union MatchMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Union MatchMaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3740672789C48F003EA217 /* Union_MatchMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Union_MatchMakerApp.swift; sourceTree = "<group>"; };
+		1D3740692789C48F003EA217 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D37406B2789C490003EA217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D37406E2789C490003EA217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D3740762789CD75003EA217 /* UnionGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionGame.swift; sourceTree = "<group>"; };
+		1D3740782789CE28003EA217 /* UnionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionCard.swift; sourceTree = "<group>"; };
+		1D37407A2789D401003EA217 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		1D37407C2789F92E003EA217 /* GameBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewModel.swift; sourceTree = "<group>"; };
+		1D37407E278A2B11003EA217 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1D374080278A2DD6003EA217 /* GameTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimerView.swift; sourceTree = "<group>"; };
+		1D374082278A46E9003EA217 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		1D374084278B0FF5003EA217 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1D374086278B1437003EA217 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		1D374089278B218A003EA217 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		1D37408B278C18CB003EA217 /* Union-MatchMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Union-MatchMaker-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3740612789C48E003EA217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D37405B2789C48E003EA217 = {
+			isa = PBXGroup;
+			children = (
+				1D3740662789C48E003EA217 /* Union MatchMaker */,
+				1D3740652789C48E003EA217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D3740652789C48E003EA217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3740642789C48E003EA217 /* Union MatchMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D3740662789C48E003EA217 /* Union MatchMaker */ = {
+			isa = PBXGroup;
+			children = (
+				1D37408B278C18CB003EA217 /* Union-MatchMaker-Info.plist */,
+				1D3740752789C510003EA217 /* GameLogic */,
+				1D374088278B20E9003EA217 /* Views */,
+				1D3740672789C48F003EA217 /* Union_MatchMakerApp.swift */,
+				1D37407C2789F92E003EA217 /* GameBoardViewModel.swift */,
+				1D374089278B218A003EA217 /* GameSettings.swift */,
+				1D37406D2789C490003EA217 /* Preview Content */,
+				1D37406B2789C490003EA217 /* Assets.xcassets */,
+			);
+			path = "Union MatchMaker";
+			sourceTree = "<group>";
+		};
+		1D37406D2789C490003EA217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D37406E2789C490003EA217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D3740752789C510003EA217 /* GameLogic */ = {
+			isa = PBXGroup;
+			children = (
+				1D3740782789CE28003EA217 /* UnionCard.swift */,
+				1D3740762789CD75003EA217 /* UnionGame.swift */,
+			);
+			path = GameLogic;
+			sourceTree = "<group>";
+		};
+		1D374088278B20E9003EA217 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D374086278B1437003EA217 /* AboutView.swift */,
+				1D37407E278A2B11003EA217 /* CardView.swift */,
+				1D3740692789C48F003EA217 /* ContentView.swift */,
+				1D37407A2789D401003EA217 /* GameBoardView.swift */,
+				1D374080278A2DD6003EA217 /* GameTimerView.swift */,
+				1D374082278A46E9003EA217 /* HelpView.swift */,
+				1D374084278B0FF5003EA217 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D3740632789C48E003EA217 /* Union MatchMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3740722789C490003EA217 /* Build configuration list for PBXNativeTarget "Union MatchMaker" */;
+			buildPhases = (
+				1D3740602789C48E003EA217 /* Sources */,
+				1D3740612789C48E003EA217 /* Frameworks */,
+				1D3740622789C48E003EA217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Union MatchMaker";
+			productName = "Union MatchMaker";
+			productReference = 1D3740642789C48E003EA217 /* Union MatchMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D37405C2789C48E003EA217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1D3740632789C48E003EA217 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D37405F2789C48E003EA217 /* Build configuration list for PBXProject "Union MatchMaker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D37405B2789C48E003EA217;
+			productRefGroup = 1D3740652789C48E003EA217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D3740632789C48E003EA217 /* Union MatchMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D3740622789C48E003EA217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D37406F2789C490003EA217 /* Preview Assets.xcassets in Resources */,
+				1D37406C2789C490003EA217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3740602789C48E003EA217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D37407F278A2B11003EA217 /* CardView.swift in Sources */,
+				1D3740772789CD75003EA217 /* UnionGame.swift in Sources */,
+				1D374087278B1437003EA217 /* AboutView.swift in Sources */,
+				1D37407D2789F92E003EA217 /* GameBoardViewModel.swift in Sources */,
+				1D37407B2789D401003EA217 /* GameBoardView.swift in Sources */,
+				1D374083278A46E9003EA217 /* HelpView.swift in Sources */,
+				1D37408A278B218A003EA217 /* GameSettings.swift in Sources */,
+				1D374085278B0FF5003EA217 /* SettingsView.swift in Sources */,
+				1D3740792789CE28003EA217 /* UnionCard.swift in Sources */,
+				1D374081278A2DD6003EA217 /* GameTimerView.swift in Sources */,
+				1D37406A2789C48F003EA217 /* ContentView.swift in Sources */,
+				1D3740682789C48F003EA217 /* Union_MatchMakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D3740702789C490003EA217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D3740712789C490003EA217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3740732789C490003EA217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Union MatchMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = U7XBG898SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Union-MatchMaker-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuance.Union-MatchMaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D3740742789C490003EA217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Union MatchMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = U7XBG898SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Union-MatchMaker-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuance.Union-MatchMaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D37405F2789C48E003EA217 /* Build configuration list for PBXProject "Union MatchMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3740702789C490003EA217 /* Debug */,
+				1D3740712789C490003EA217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3740722789C490003EA217 /* Build configuration list for PBXNativeTarget "Union MatchMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3740732789C490003EA217 /* Debug */,
+				1D3740742789C490003EA217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D37405C2789C48E003EA217 /* Project object */;
+}

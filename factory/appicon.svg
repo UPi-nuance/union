@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="114"
+   inkscape:export-xdpi="114"
+   inkscape:export-filename="/Users/ungarpeter/projects/Union/factory/appicon-152.png"
+   sodipodi:docname="appicon.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   width="128.0px"
+   height="128.0px"
+   viewBox="0 0 128.0 128.0"
+   version="1.1"
+   id="SVGRoot">
+  <defs
+     id="defs3780">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-4-1"
+       id="pattern6990-4"
+       patternTransform="matrix(1.6146477,-0.48700212,0.48198469,1.6299774,-70.98782,-9.4402854)" />
+    <pattern
+       inkscape:isstock="true"
+       inkscape:stockid="Wavy"
+       id="Wavy-4-1"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path3609-5-3"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:#2b9e27;stroke:none;" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     inkscape:snap-global="false"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="1314"
+     inkscape:window-width="1720"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="91.289219"
+     inkscape:cx="64"
+     inkscape:zoom="9.359375"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#e8e9dc"
+     id="base">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4350" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3783">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       d="M 6.4039719,47.420211 C 4.2224615,48.078189 2.9355471,50.236457 3.526168,52.23382 l 7.478268,25.290025 c 0.591402,2.000012 2.839914,3.093676 5.021426,2.435694 l 25.799776,-7.781602 -4.993647,-16.89751 0.0014,-4.32e-4 c 13.161779,-3.969791 33.30132,3.339893 33.30132,3.339893 l -0.372493,-1.259711 c 0,0 -24.024666,-21.803577 -54.103495,-12.731347 z m 78.1627271,7.823966 4.993636,16.897512 C 76.398033,76.111646 56.261398,68.799545 56.261398,68.799545 l 0.373746,1.263941 c 0,0 24.022365,21.799649 54.098056,12.728374 l 9.2534,-2.790966 c 2.18203,-0.658131 3.47095,-2.817971 2.88017,-4.815859 l -7.47826,-25.290027 c -0.59187,-2.001591 -2.84134,-3.090164 -5.02339,-2.432027 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.853951;stroke-opacity:1"
+       id="path11" />
+    <path
+       id="path11-7"
+       style="fill:url(#pattern6990-4);fill-opacity:1;fill-rule:nonzero;stroke:#2b9e27;stroke-width:2;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 6.4039437,47.420207 c -2.1815106,0.657978 -3.4684249,2.816246 -2.8778041,4.813611 l 7.4782674,25.290024 c 0.591403,2.000014 2.839916,3.093681 5.021428,2.435693 l 25.799775,-7.7816 -4.993647,-16.897511 0.0014,-4.33e-4 C 49.995141,51.3102 70.134684,58.619884 70.134684,58.619884 L 69.76223,57.360173 c 0,0 -24.024665,-21.803576 -54.103493,-12.731347 z m 78.1627253,7.823966 4.993647,16.897515 C 76.398006,76.111643 56.26137,68.799542 56.26137,68.799542 l 0.373745,1.263942 c 0,0 24.022365,21.799652 54.098055,12.728378 l 9.2534,-2.790972 c 2.18204,-0.658128 3.47095,-2.817969 2.88018,-4.815856 l -7.47827,-25.29003 c -0.59187,-2.001591 -2.84134,-3.090163 -5.02338,-2.432026 z" />
+  </g>
+</svg>
