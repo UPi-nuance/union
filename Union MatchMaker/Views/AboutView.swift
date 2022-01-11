@@ -15,16 +15,13 @@ struct AboutView: View {
                     .font(.title)
                     .foregroundColor(Color("AccentColor"))
                 Text("By Peter Ungar")
-                Text("To commemorate the acquisition of Nuance by Microsoft")
+                Text("Dedicated to my colleagues at Nuance")
                     .multilineTextAlignment(.center)
                 HStack {
                     CardImage(imageName: "card_0000")
                     CardImage(imageName: "card_1200")
                     CardImage(imageName: "card_2100")
                 }
-                Text("Logos of companies are represented under fair use.")
-                    .foregroundColor(Color.gray)
-                    .multilineTextAlignment(.center)
             }
             .padding()
         .navigationTitle("About Unity")

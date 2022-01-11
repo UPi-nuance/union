@@ -9,7 +9,7 @@ import Foundation
 
 
 enum UnionShape: Int, CaseIterable {
-    case nuance, microsoft, dragon
+    case circle, triangle, star
 }
 
 enum UnionColor: Int, CaseIterable {

@@ -11,7 +11,7 @@ struct SettingsView: View {
     @EnvironmentObject var settings: GameSettings
 
     var body: some View {
-        List {
+        Form {
             Section(header: Text("Options")) {
                 Picker(selection: $settings.difficulty, label: Text("Difficulty")) {
                     Text("Easy").tag(GameDifficulty.easy)

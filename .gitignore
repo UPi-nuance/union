@@ -2,6 +2,7 @@
 
 factory/card*.svg
 factory/card*.png
+factory/card*.pdf
 factory/appicon*.png
 
 # Xcode

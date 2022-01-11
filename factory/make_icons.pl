@@ -4,6 +4,7 @@ use v5.14;
 use strict;
 
 my $ExportPng = 0;
+my $ExportPdf = 0;
 
 sub ReadFileOrDie {
 	my ($fileName) = @_;
@@ -65,14 +66,14 @@ sub MakeSvg {
 
 	# Apply the number
 	if ($number > 1) {
-		$svg =~ s/(<path\s[^>]*d="m.*?>)/&DuplicatePath($1, $number)/se;
+		$svg =~ s/(<path\s[^>]*d="m.*?>)/&DuplicatePath($1, $number)/se  or die 'Could not find duplicate path.';
 	}
 
 	return $svg;
 }
 
 sub Run {
-	my @filenames = qw/ nuance.svg microsoft.svg dragon.svg /;
+	my @filenames = qw/ circle.svg triangle.svg star.svg /;
 	my @colors = qw/ #2b9e27 #c92552 #2557c9 /;
 	my @patterns = qw/ solid outline wavy /;
 
@@ -84,7 +85,7 @@ sub Run {
 					my $svgFile = "card_$i$j$k$l.svg";
 					&WriteStringToFile($svgFile, $svg);
 					`/Applications/Inkscape.app/Contents/MacOS/inkscape  --export-type=png $svgFile`  if $ExportPng;
-					
+					`/Applications/Inkscape.app/Contents/MacOS/inkscape  --export-type=pdf $svgFile`  if $ExportPdf;
 				}
 			}
 		}
@@ -92,5 +93,6 @@ sub Run {
 }
 
 $ExportPng = 1  if $ARGV[0] eq '--export-png';
-#&WriteStringToFile('card0.svg', &MakeSvg('nuance.svg', '#ff0000', 'wavy', 3));
-&Run();
+$ExportPdf = 1  if $ARGV[0] eq '--export-pdf';
+&WriteStringToFile('appicon.svg', &MakeSvg('star.svg', '#2b9e27', 'wavy', 1));
+#&Run();

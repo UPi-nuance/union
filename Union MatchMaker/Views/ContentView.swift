@@ -15,7 +15,8 @@ struct ContentView: View {
             NavigationView {
                 VStack {
                     Text("❤️")
-                    Text("Union is a game about what happens when two companies love each other very much.")
+                    Text("Union card matching game")
+                        .font(.title)
                         .multilineTextAlignment(.center)
                     Text("❤️")
                         .padding(.bottom)
